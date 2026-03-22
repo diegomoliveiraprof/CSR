@@ -17,6 +17,14 @@ Ao longo do curso, os estudantes irão configurar, analisar e testar serviços d
 Este repositório reúne os roteiros dos experimentos, materiais de apoio e instruções práticas necessárias para a execução das atividades.
 
 
+## Organização do Repositório
+A estrutura do repositório segue o padrão abaixo:
+
+Cada laboratório possui um diretório próprio contendo:
+
+Fundamentação teórica e conceitos;
+Roteiro do experimento;
+Comandos a serem utilizados.
 
 
 
