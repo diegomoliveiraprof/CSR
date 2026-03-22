@@ -35,7 +35,7 @@
 ## 5. Configuração de rede
 
 Para configurar a rede, é necessário editar o arquivo de configuração. No Ubuntu, esse arquivo geralmente está localizado em:
-`/etc/netplan/00-installer-config.yaml`
+`/etc/netplan/00-installer-config.yaml ou /etc/netplan/01-netcfg.yaml`
 
 O editor de texto que utilizaremos será o `nano` (nano).
 
@@ -50,6 +50,8 @@ Utilizar o comando `sudo` antes das instruções no terminal.
 Comando:   
 ```
 nano /etc/netplan/00-installer-config.yaml
+ou
+nano /etc/netplan/01-netcfg.yaml
 ```
 _**Obs.:** Arquivos com extensão `.yaml` NÃO suportam tabulação.   
 Portanto, não utilize a tecla `TAB` ao editar esses arquivos;    
