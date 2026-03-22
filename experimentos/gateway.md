@@ -19,4 +19,5 @@
 
 ## Diagrama do Experimento
 
-![Diagrama de rede([https://www.unb.br/images/logo.png](https://github.com/diegomoliveiraprof/CSR/blob/main/CRS%20Gateway%20diagrama.png))
+<img src="https://github.com/diegomoliveiraprof/CSR/blob/main/CRS%20Gateway%20diagrama.png?raw=true" alt="Diagrama do Gateway" width="600">
+
