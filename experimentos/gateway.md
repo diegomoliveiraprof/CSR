@@ -48,5 +48,7 @@ Utilizar o comando `sudo` antes das instruções no terminal.
 ### Editando o arquivo de configuração de rede
 
 Comando:   
-```nano /etc/netplan/00-installer-config.yaml```
+```
+nano /etc/netplan/00-installer-config.yaml
+```
 
