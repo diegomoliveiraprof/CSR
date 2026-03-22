@@ -27,6 +27,7 @@
 * Uma máquina gateway (gw), precisa ter duas placas de rede (reais ou virtuais), uma fica ligada na rede interna e outra fica ligada na saída para a internet.
 * A placa 0 será a saída e fica com ip automático (dhcp).
 * A placa 1 será a ligação com a rede interna e ficará com ip estático.
-* É preciso modificar o arquivo de configuração das interfaces de rede. Seguem os comandos e um exemplo de arquivo de configuração.
+* É preciso modificar o arquivo de configuração das interfaces de rede.
+* Seguem os comandos e um exemplo de arquivo de configuração.
 
 
