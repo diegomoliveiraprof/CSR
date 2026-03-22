@@ -56,7 +56,8 @@ Comando:
 networkcl
 
 ```   
-Saída
+Saída   
+
 <img width="450" height="179" alt="crs_netwokclt" src="https://github.com/user-attachments/assets/806a70c0-03b2-44d8-8f97-c22769bf3794" />   
 
 Neste caso a interface `ensp03 é a primeira e ensp8 é segunda inteface física`    
