@@ -21,6 +21,7 @@
 
 ![Diagrama do Gateway](../img/crs_gateway_diagrama.png)
 
+---
 ## 4. Configurar placas de rede
 
 * Uma máquina gateway (gw), precisa ter duas placas de rede (reais ou virtuais), uma fica ligada na rede interna e outra fica ligada na saída para a internet.
