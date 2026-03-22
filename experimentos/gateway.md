@@ -19,7 +19,7 @@
 
 ## Diagrama do Experimento
 
-<img src="img/crs_gateway_diagrama.png?raw=true" alt="Diagrama do Gateway" width="600">
+<img src="img/main/img/crs_gateway_diagrama.png?raw=true" alt="Diagrama do Gateway" width="600">
 
 ![Diagrama do Gateway](main/img/crs_gateway_diagrama.png)
 
