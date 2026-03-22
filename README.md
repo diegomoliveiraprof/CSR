@@ -1,8 +1,8 @@
 # Instituto Federal de Brasília - IFB - Campus Taguatinga
 
-**Disciplina:** Configuração de Serviços de Rede
-**Curso:** Curso Técnico em Manutenção e Suporte em Informática
-**Professor:** Prof. Me. Diego Martins de Oliveira
+**Disciplina:** Configuração de Serviços de Rede  
+**Curso:** Curso Técnico em Manutenção e Suporte em Informática  
+**Professor:** Prof. Me. Diego Martins de Oliveira  
 
 ---
 
