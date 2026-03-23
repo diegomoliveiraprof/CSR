@@ -191,7 +191,7 @@ Onde "nome_placa_0", deve ser substituido pelo nome da interface de saída do **
 <img width="902" height="167" alt="nat_comando" src="https://github.com/user-attachments/assets/8c2af389-2d2a-4353-91a1-1863b8f6dc39" />
 
 
-Após aplicar a regra, é possível verificar se ela entrou na lista do IPTABLES com comando demonstrado na tabela anterior.
+Após aplicar a regra, é possível verificar se ela entrou na lista do IPTABLES com o comando demonstrado na tabela anterior.
 
 Saída:
 
