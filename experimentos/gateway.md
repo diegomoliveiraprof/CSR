@@ -79,3 +79,6 @@ use apenas espaços para indentar corretamente._
 
 
 No arquivo, deve ser adicionada a placa de rede adicional e as configurações que dizem respeito a ela, neste caso a primeira placa fica com DHCP ativo, e irá obter endereço IP automáticamente e a segunda placa fica com DHCP desativado e o endereço IP deve ser configurado manualmente.
+
+![netplan](https://github.com/user-attachments/assets/cf6190a9-5738-4885-8261-fa974c948b8b)
+
