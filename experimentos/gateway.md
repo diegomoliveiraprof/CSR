@@ -238,3 +238,13 @@ Existem diferentes formas de resolver ou contornar esse comportamento, como salv
 Neste exeperimento para fins de aprendizagem será utilizada a abordagem de criar um _script_ para que a regra de NAT possa ser reaplicada quando o sistema reiniciar.   
 
 _Obs.: Posteriormente em aulas específicas de IPTABLES será demonstrado como salvar as regras para que sejam reaplicadas automáticamente_
+
+### Criando o _script_
+
+O arquivo tipo _script_ poderia ser criado em qualquer ponto (diretório) do sistema, mas, por questão de organização, ele será criado na pasta `/usr/local/bin`.
+
+Criando o arquivo:   
+```
+nano /usr/local/bin
+```
+
