@@ -198,4 +198,20 @@ Saída:
 <img width="518" height="280" alt="Captura de tela de 2026-03-23 18-48-08" src="https://github.com/user-attachments/assets/ce51f8db-2611-4a60-a9c5-9a17bdbc2d4b" />
 
 
+---
+
+## 8. Testes de conexão
+
+Após realizar as configurações anteriores é possível testar a conexão com redes externas como a Internet.  
+Os testes nas máquinas internas/clientes podem ser realizados tentando navegar normalmente pelo navegador ou com o comando `ping` por exemplo disparando para um site conhecido.
+
+### Teste de conexão externa com ping
+
+Teste com ping no Windows disparando para um site.   
+Saída:   
+<img width="773" height="359" alt="ping_site" src="https://github.com/user-attachments/assets/7ff7c1f3-4a59-4714-997d-89e1a5017078" />
+
+Teste com ping no Linux disparando para um site.   
+Saída:   
+<img width="1155" height="317" alt="ping_site_linux" src="https://github.com/user-attachments/assets/ddcb526f-9144-4a64-a7b3-6dd672afb7fd" />
 
