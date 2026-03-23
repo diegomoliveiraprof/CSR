@@ -119,3 +119,9 @@ O comando `ping` pode ser utilizado de uma máquina para outra, para realizar o 
 
 <img width="658" height="400" alt="ping" src="https://github.com/user-attachments/assets/a1960086-501f-4aec-891e-a2552b3ae3e6" />
 
+
+---
+
+## 6. Encaminhamento de pacotes
+
+Para que uma máquina configurada como gateway permita o tráfego de dados entre diferentes redes, é necessário habilitar o encaminhamento de pacotes. Dessa forma, os pacotes recebidos por suas interfaces de rede poderão ser redirecionados para outras máquinas, funcionando como ponto de passagem no fluxo de comunicação.
