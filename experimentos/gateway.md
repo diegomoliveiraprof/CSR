@@ -188,4 +188,5 @@ iptables -t nat -A POSTROUTING -o nome_placa_0 -j MASQUERADE
 
 Onde o "nome_placa_0", deve ser substituido pelo nome da interface de saída do **Gateway**.
 
+<img width="902" height="167" alt="nat_comando" src="https://github.com/user-attachments/assets/8c2af389-2d2a-4353-91a1-1863b8f6dc39" />
 
