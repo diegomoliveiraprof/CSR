@@ -195,7 +195,7 @@ Após aplicar a regra, é possível verificar se ela entrou na lista do IPTABLES
 
 Saída:
 
-<img width="538" height="302" alt="nat_list" src="https://github.com/user-attachments/assets/7c649e9a-fb25-487b-810c-3dfe1ab5c692" />
+<img width="518" height="280" alt="Captura de tela de 2026-03-23 18-48-08" src="https://github.com/user-attachments/assets/ce51f8db-2611-4a60-a9c5-9a17bdbc2d4b" />
 
 
 
