@@ -95,5 +95,19 @@ Comando:
 netplan --debug apply
 ```
 
-Caso exista algum problema de sintaxe no arquivo a configuração não será aplicada, e uma mensagem de erro pode ser apresentada.
+Caso exista algum problema de sintaxe no arquivo a configuração não será aplicada, e uma mensagem de erro pode ser apresentada.   
+
+Se tudo der certo, com o comando `ifconfig` será possível vizualizar as interfaces e seus respectivos endereços IP.
+
+Comando:
+
+```
+ifconfig
+```
+
+Saida:
+
+<img width="747" height="556" alt="ifconfig" src="https://github.com/user-attachments/assets/dcef2199-f74e-4f04-8adb-67a30e09e550" />
+
+
 
