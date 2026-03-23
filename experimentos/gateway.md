@@ -47,9 +47,7 @@ Utilizar o comando `sudo` antes das instruções no terminal.
 
 ### Editando o arquivo de configuração de rede
 
-O comando `ls /etc/netplan` deve ser utilizado para verificar qual o nome correto do arquivo antes de tentar editar.   
-
-Ainda antes de editar o arquivo de configuração de rede é necessário saber o nome das interfaces disponíveis na máquina.   
+Antes de editar o arquivo de configuração de rede é necessário saber o nome das interfaces disponíveis na máquina.   
 Isso pode ser feito com o comando `networkclt`, que em sua saída, mostrará o nome das interfaces.
 Comando:
 ```
@@ -62,6 +60,9 @@ Saída
 
 
 Neste caso a interface `ens3 é a primeira e ens4 é segunda inteface física`    
+
+Editando o carquivo de configuração de rede.   
+O comando `ls /etc/netplan` deve ser utilizado para verificar qual o nome correto do arquivo antes de tentar editar.  
 
 Comando:   
 ```
