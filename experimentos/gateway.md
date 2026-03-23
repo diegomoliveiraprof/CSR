@@ -82,3 +82,13 @@ No arquivo, deve ser adicionada a placa de rede adicional e as configurações q
 
 ![netplan](https://github.com/user-attachments/assets/cf6190a9-5738-4885-8261-fa974c948b8b)
 
+
+Após a edição do arquivo é necessário aplicar as novas configurações.   
+Comando:   
+
+```
+netplan --debug apply
+```
+
+Caso exista algum problema de sintaxe no arquivo a configuração não será aplicada, e uma mensagem de erro pode ser apresentada.
+
