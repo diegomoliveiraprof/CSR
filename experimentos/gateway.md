@@ -215,3 +215,8 @@ Teste com ping no Linux disparando para um site.
 Saída:   
 <img width="1155" height="317" alt="ping_site_linux" src="https://github.com/user-attachments/assets/ddcb526f-9144-4a64-a7b3-6dd672afb7fd" />
 
+### Teste de conexão externa com navegação
+
+O teste de navegação pode ser realizado com qualquer navegador em qualquer site.   
+<img width="1232" height="619" alt="navegacao" src="https://github.com/user-attachments/assets/b2623c37-7c70-4ff9-9515-1afbae303f7b" />
+
