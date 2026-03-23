@@ -124,4 +124,26 @@ O comando `ping` pode ser utilizado de uma máquina para outra, para realizar o 
 
 ## 6. Encaminhamento de pacotes
 
-Para que uma máquina configurada como gateway permita o tráfego de dados entre diferentes redes, é necessário habilitar o encaminhamento de pacotes. Dessa forma, os pacotes recebidos por suas interfaces de rede poderão ser redirecionados para outras máquinas, funcionando como ponto de passagem no fluxo de comunicação.
+Para que uma máquina configurada como gateway permita o tráfego de dados entre diferentes redes, é necessário habilitar o encaminhamento de pacotes.   
+Dessa forma, os pacotes recebidos por suas interfaces de rede poderão ser redirecionados para outras máquinas, funcionando como ponto de passagem no fluxo de comunicação.   
+
+Para ativar essa configuração, é necessário editar o arquivo `/etc/sysctl.conf`.   
+
+Comando:   
+```
+nano /etc/sysctl.conf
+```
+
+Procurar pela linha:
+
+```
+# net.ipv4.ip_forward=1
+```
+
+E remover o símbolo de comentário `# ` do início da linha.
+
+Resultado:
+
+```
+net.ipv4.ip_forward=1
+```
