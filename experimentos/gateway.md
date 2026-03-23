@@ -22,6 +22,9 @@
 
 ![Diagrama do Gateway](../img/crs_gateway_diagrama.png)
 
+
+
+
 ---
 ## 4. Configurar placas de rede
 
@@ -222,7 +225,11 @@ O teste de navegação pode ser realizado com qualquer navegador em qualquer sit
 Saída:   
 <img width="1232" height="619" alt="navegacao" src="https://github.com/user-attachments/assets/b2623c37-7c70-4ff9-9515-1afbae303f7b" />
 
+
+
 ---   
+
+
 ## 9 Automatizando o NAT
 
 O IPTABLES responsável por implementar o NAT no sistema, tem o comportamento padrão de **não** salvar o estado atual, após uma reinicialização do sistema, ou seja, em seu funcionamento normal, se o sistema for reiniciado, todas as regras são apagadas.  
