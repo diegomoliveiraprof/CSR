@@ -174,3 +174,11 @@ Essas configurações garantem tanto a segurança quanto o encaminhamento adequa
 | `sudo iptables -F`         | Limpa as regras de firewall, permitindo que todos os pacotes trafeguem | Zera todas as regras de INPUT/OUTPUT/FORWARD. Exemplo: após executar, qualquer tráfego é permitido sem restrição. |
 
 
+### Comandos básicos de listagem e limpeza do IPTABLES
+
+| Comando                         | Função                                                                 |
+|---------------------------------|------------------------------------------------------------------------|
+| `sudo iptables -L`              | Lista as regras de firewall do iptables                                |
+| `sudo iptables -L -t nat`       | Lista as regras de NAT do iptables                                     |
+| `sudo iptables -F -t nat`       | Desativa o NAT                                                         |
+| `sudo iptables -F`              | Limpa as regras de firewall, permitindo que todos os pacotes trafeguem |
