@@ -1,6 +1,6 @@
 # Instituto Federal de Brasília - IFB - Campus Taguatinga
 
-**Disciplina:** Configuração de Serviços de Rede  - CSR
+**Disciplina:** Configuração de Serviços de Rede  - CSR   
 **Curso:** Curso Técnico em Manutenção e Suporte em Informática - TMSI  
 **PPC:** https://www.ifb.edu.br/index.php/estude-no-ifb?id=1738  
 **Professor:** Prof. Me. Diego Martins de Oliveira  
