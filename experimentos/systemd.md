@@ -188,3 +188,15 @@ iptables -L -t nat
 | Reiniciar o serviço          | `systemctl restart nat.service` | Para e inicia novamente o serviço.             |
 | Verificar o status do serviço| `systemctl status nat.service`  | Mostra se está ativo, inativo ou falhou, <br>além de detalhes do processo. |
 
+## 5. Targets
+
+Em resumo: targets são pontos de controle que definem o estado global do sistema, agrupando serviços de acordo com a necessidade (modo gráfico, modo texto, recuperação, desligamento, etc.).
+
+| Target | Equivalente (runlevel antigo) | Função principal |
+| --- | --- | --- |
+| ``poweroff.target`` | Runlevel 0 | Desliga o sistema |
+| ``rescue.target`` | Runlevel 1 | Modo de recuperação (mínimo de serviços) |
+| ``multi-user.target`` | Runlevel 3 | Modo multiusuário, sem interface gráfica |
+| ``graphical.target`` | Runlevel 5 | Modo multiusuário com interface gráfica |
+| ``reboot.target`` | Runlevel 6 | Reinicia o sistema |
+
