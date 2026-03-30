@@ -16,15 +16,16 @@ Executar o experimento e responder às questões em um relatório, utilizar _pri
 
 2. Abra o Wireshark e inicie uma captura na interface de rede ativa.
 
-3. No navegador abra o site: http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html .
+3. No navegador abra o site: http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html 
 
 4. Depois que seu navegador mostrar a mensagem de parabéns "_Congratulations! You've downloaded the first Wireshark lab file!_", pare a captura no Wireshark.
 
 5. Digite http  no filtro de visualização e tecle ``enter`` , com isso devem aparecer apenas mensagens http na tela, como na Figura 1.
 
-   ![Figura 1 wireshark_labintro_01.PNG](img\wireshark_labintro_01.PNG)
+   <img width="959" height="583" alt="wireshark_labintro_01" src="https://github.com/user-attachments/assets/8816aa95-4a12-4dc5-8107-ad1e8c78ce89" />
 
-   <small>Figura 1 - Captura com filtro visualização http</small>
+
+   <small>Figura 1 - Captura com filtro de visualização http</small>
 
 6. Encontre o HTTP GET enviado pela sua máquina ao servidor, procure na coluna _Info_. Selecione o pacote e veja que é possível ver detalhes das informações das camadas de rede.   
 
