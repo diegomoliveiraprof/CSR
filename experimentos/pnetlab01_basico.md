@@ -16,6 +16,7 @@ Com este experimento, o aluno irá:
 Nesta atividade, o estudante deverá:
 
 ### Parte 1
+- Acessar o PENETLab pelo endereço fornecido.
 - Abrir o arquivo de laboratório fornecido, que contém um cenário pré-configurado com dispositivos básicos e uma saída para a Internet.  
 - Configurar **endereçamento IPv4 manualmente** nos dispositivos.  
 - Testar a **conexão interna e externa** via CLI.  
