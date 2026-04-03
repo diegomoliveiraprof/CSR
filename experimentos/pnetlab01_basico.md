@@ -31,6 +31,9 @@ Nesta atividade, o estudante deverá:
 
 
 ---
+### Validação
+
+Mostrar ao professor o cenário configurado funcionando.
 
 ## Importância
 - Esta atividade é **básica e introdutória**, servindo como porta de entrada para o uso do PNETLab.  
