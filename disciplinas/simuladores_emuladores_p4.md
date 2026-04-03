@@ -45,6 +45,10 @@
 
 ---
 
+
+
 ## 6. Conclusão
 O **PNETLab** é uma ferramenta poderosa para quem deseja praticar redes em um ambiente próximo ao real.  
 Enquanto o **Packet Tracer** é ideal para iniciantes, o **PNETLab** atende estudantes avançados e profissionais que precisam simular cenários complexos e se preparar para certificações de alto nível.  
+
+[<< voltar](simuladores_emuladores_p3.md)
