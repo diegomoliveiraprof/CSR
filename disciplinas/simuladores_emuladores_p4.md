@@ -37,11 +37,7 @@
 ---
 
 ## 5. Exemplo de uso básico
-1. Acessar a interface web pelo navegador.  
-2. Criar um novo projeto/laboratório.  
-3. Adicionar dispositivos (roteadores, switches, PCs).  
-4. Conectar os dispositivos com links virtuais.  
-5. Iniciar as máquinas e configurar como se fossem equipamentos reais.  
+[Experimento PNETLab básico](/experimentos/pnetlab01_basico.md)
 
 ---
 
