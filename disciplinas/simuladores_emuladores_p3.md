@@ -3,7 +3,8 @@
 
 # Aula Básica sobre Cisco Packet Tracer 
 
-<img width="286" height="176" alt="packet_logo" src="https://github.com/user-attachments/assets/9c0a571a-e286-4bdc-ad71-aa3c38e54a53" />      
+<img width="286" height="176" alt="packet_logo" src="https://github.com/user-attachments/assets/9c0a571a-e286-4bdc-ad71-aa3c38e54a53" />    <img width="320" height="400" alt="Captura de tela de 2026-04-03 16-10-05" src="https://github.com/user-attachments/assets/7ecf75dc-63d4-4b46-8320-59489f2b75c7" />
+  
 
 
 ---
