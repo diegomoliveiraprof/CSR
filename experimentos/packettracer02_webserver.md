@@ -27,7 +27,9 @@ Nesta atividade, o estudante deverá:
 5. Verificar a possibilidade de **configuração de um servidor** no Packet Tracer.  
 6. Testar a **conexão externa** com `ping` (via endereço IP e via URL).  
 7. Testar o **acesso ao servidor Web** via navegador.
-8. Observar e analisar os pacotes.  
+8. Observar e analisar os pacotes.
+
+[Link do cenário .pkt](https://drive.google.com/file/d/1nUkAqOWabfJMJlc3h880GECVO50tmy0p/view?usp=drive_link)
 
 ## Validação
 Mostrar ao professor o cenário configurado funcionando.
