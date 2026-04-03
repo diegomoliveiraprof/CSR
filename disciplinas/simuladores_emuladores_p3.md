@@ -56,4 +56,4 @@
 O **Packet Tracer** é uma ferramenta essencial para quem está começando a estudar redes.  
 Ele ajuda a compreender conceitos fundamentais como endereçamento IP, roteamento básico e serviços de rede, preparando o estudante para ambientes mais complexos que exigem emuladores ou equipamentos reais.  
 
-[<< voltar](simuladores_emuladores_p3.md)&nbsp;&nbsp;&nbsp;[proximo >> ](simuladores_emuladores_p4.md)
+[<< voltar](simuladores_emuladores_p2.md)&nbsp;&nbsp;&nbsp;[proximo >> ](simuladores_emuladores_p4.md)
