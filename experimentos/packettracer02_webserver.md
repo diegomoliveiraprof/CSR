@@ -28,3 +28,6 @@ Nesta atividade, o estudante deverá:
 6. Testar a **conexão externa** com `ping` (via endereço IP e via URL).  
 7. Testar o **acesso ao servidor Web** via navegador.
 8. Observar e analisar os pacotes.  
+
+## Validação
+Mostrar ao professor o cenário configurado funcionando.
