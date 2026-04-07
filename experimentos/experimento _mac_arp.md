@@ -29,5 +29,39 @@ que possível para justificar suas respostas.
 
 ## 3. Finalize a captura
 - Retorne ao **Wireshark**.  
-- Clique em **Stop Capture** para encerrar a coleta de 
+- Clique em **Stop Capture** para encerrar a coleta de
 
+
+## Questões
+
+1. **Identificação de endereços MAC**
+   - Localize **3 endereços MAC diferentes** na captura realizada no Wireshark.  
+   - Utilize uma ferramenta de consulta de fabricantes (ex.: [macvendors](https://macvendors.com/), [IEEE OUI Lookup](https://standards-oui.ieee.org/), [OUI Wireshark](https://www.wireshark.org/tools/oui-lookup.html)) para descobrir a qual fabricante cada endereço pertence.  
+   - Inclua **prints da tela** para justificar sua resposta.
+
+2. **Comunicação Unicast**
+   - Identifique na captura um **quadro (frame)** que evidencie uma comunicação **unicast**.  
+   - Explique o que é comunicação unicast.
+   - Inclua **prints da tela** para justificar sua resposta.
+
+3. **Comunicação Broadcast**
+   - Identifique na captura um **quadro (frame)** que evidencie uma comunicação **broadcast**.  
+   - Explique o que é comunicação broadcast.  
+   - Inclua **prints da tela** para justificar sua resposta.
+
+4. **Funcionamento básico do protocolo ARP**
+   - Explique brevemente como o protocolo ARP funciona.
+     
+5. **Função da tabela ARP**
+   - Explique qual é a função da tabela ARP.  
+   - Mostre uma **imagem da tabela ARP** da sua máquina (Windows: `arp -a` / Linux: `arp -n`).
+
+6. **Pacotes ARP na captura**
+   - Identifique pacotes ARP na captura.  
+   - Explique a principal diferença entre **ARP Request** e **ARP Reply**.  
+   - Mostre como identificar cada um no Wireshark.
+
+7. **Camada de enlace**
+   - Selecione a **camada de enlace** de um pacote da captura.  
+   - Identifique qual protocolo está encapsulado nela.  
+   - Inclua **prints da tela** para justificar sua resposta.
