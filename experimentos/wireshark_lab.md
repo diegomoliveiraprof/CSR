@@ -35,7 +35,7 @@ Executar o experimento e responder às questões em um relatório, utilizar _pri
 
 ## Questões
 
-1. Liste 3 diferentes protocolos que aparecem na captura antes da utilização do filtro http. Utilize um _print_ da tela para  justificar sua resposta.
+1. Liste três protocolos diferentes que aparecem na captura de pacotes antes da aplicação do filtro http. Em seguida, descreva cada um dos três protocolos escolhidos, explicando a função principal de cada um. Utilize um _print_ da tela para  justificar sua resposta.
 
    
 
