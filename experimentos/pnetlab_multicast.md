@@ -46,7 +46,7 @@ O objetivo deste laboratório é projetar, configurar e validar uma infraestrutu
 
 
 
-## Endereçamento
+## Endereçamento por dispositivo
 
 ## 🌐 Roteador R0
 | Interface | Endereço IP     |
@@ -117,7 +117,85 @@ O objetivo deste laboratório é projetar, configurar e validar uma infraestrutu
 | VPC_3       | eth0      | 192.168.74.30/24 |
 | VPC_4       | eth0      | 192.168.75.20/24 |
 
+## Endereçamento por rede
+ <table>
+    <tr>
+      <th colspan="2">Rede 192.168.73.0/24</th>
+      <th colspan="2">Rede 192.168.72.0/24</th>
+    </tr>
+    <tr>
+      <th>Dispositivo</th><th>Endereço</th>
+      <th>Dispositivo</th><th>Endereço</th>
+    </tr>
+    <tr><td>Roteador R0 (e0/0)</td><td>192.168.73.1</td><td>Roteador R0 (e0/2)</td><td>192.168.72.1</td></tr>
+    <tr><td>MATE VLC Server (e0)</td><td>192.168.73.10</td><td>VPC_2 (eth0)</td><td>192.168.72.10</td></tr>
+    <tr><td>VPC_1 (eth0)</td><td>192.168.73.20</td><td>Lunux.d1 (eth1)</td><td>192.168.72.20</td></tr>
+  </table>
 
+  <table>
+    <tr>
+      <th colspan="2">Rede 192.168.71.0/24</th>
+      <th colspan="2">Rede 192.168.70.0/24</th>
+    </tr>
+    <tr>
+      <th>Dispositivo</th><th>Endereço</th>
+      <th>Dispositivo</th><th>Endereço</th>
+    </tr>
+    <tr><td>Roteador R0 (e0/1)</td><td>192.168.71.2</td><td>Roteador R1 (e0/1)</td><td>192.168.70.1</td></tr>
+    <tr><td>Roteador R1 (e0/0)</td><td>192.168.71.1</td><td>Roteador R2 (e0/0)</td><td>192.168.70.2</td></tr>
+  </table>
+
+  <table>
+    <tr>
+      <th colspan="2">Rede 192.168.74.0/24</th>
+      <th colspan="2">Rede 192.168.75.0/24</th>
+    </tr>
+    <tr>
+      <th>Dispositivo</th><th>Endereço</th>
+      <th>Dispositivo</th><th>Endereço</th>
+    </tr>
+    <tr><td>Roteador R6 (e0/1)</td><td>192.168.74.1</td><td>Roteador R6 (e0/2)</td><td>192.168.75.1</td></tr>
+    <tr><td>Xubuntu (e0)</td><td>192.168.74.20</td><td>Lunux.d1 (eth1)</td><td>192.168.75.10</td></tr>
+    <tr><td>VPC_3 (eth0)</td><td>192.168.74.30</td><td>VPC_4 (eth0)</td><td>192.168.75.20</td></tr>
+  </table>
+
+  <table>
+    <tr>
+      <th colspan="2">Rede 172.16.20.0/24</th>
+      <th colspan="2">Rede 172.16.30.0/24</th>
+    </tr>
+    <tr>
+      <th>Dispositivo</th><th>Endereço</th>
+      <th>Dispositivo</th><th>Endereço</th>
+    </tr>
+    <tr><td>Roteador R2 (e0/1)</td><td>172.16.20.1</td><td>Roteador R2 (e0/2)</td><td>172.16.30.2</td></tr>
+    <tr><td>Roteador R3 (e0/0)</td><td>172.16.20.2</td><td>Roteador R4 (e0/1)</td><td>172.16.30.1</td></tr>
+  </table>
+
+  <table>
+    <tr>
+      <th colspan="2">Rede 172.16.40.0/24</th>
+      <th colspan="2">Rede 172.16.50.0/24</th>
+    </tr>
+    <tr>
+      <th>Dispositivo</th><th>Endereço</th>
+      <th>Dispositivo</th><th>Endereço</th>
+    </tr>
+    <tr><td>Roteador R3 (e0/1)</td><td>172.16.40.1</td><td>Roteador R4 (e0/0)</td><td>172.16.50.2</td></tr>
+    <tr><td>Roteador R5 (e0/0)</td><td>172.16.40.2</td><td>Roteador R5 (e0/1)</td><td>172.16.50.1</td></tr>
+  </table>
+
+  <table>
+    <tr>
+      <th colspan="2">Rede 172.16.60.0/24</th>
+      <th colspan="2">—</th>
+    </tr>
+    <tr>
+      <th>Dispositivo</th><th>Endereço</th>
+      <th>Dispositivo</th><th>Endereço</th>
+    </tr>
+    <tr><td>Roteador R5 (e0/2)</td><td>172.16.60.1</td><td>Roteador R6 (e0/0)</td><td>172.16.60.2</td></tr>
+  </table>
 
 
 ## Configuração
