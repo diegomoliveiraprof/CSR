@@ -15,24 +15,26 @@
 - **Tipo:** Emulador de rede (executa imagens reais de sistemas).  
 - **Destaque:** Muito usado em certificações avançadas (CCNP, CCIE).  
 - **Recursos:** Integração com máquinas virtuais, suporte a IOS, Juniper, Mikrotik, etc.  
-- **Perfil:** Estudantes avançados e profissionais.  
-
+- **Perfil:** Estudantes avançados e profissionais.
+- **Usuários** Não faz separação do ambiente de trabalho dos usuários
+- **Arquitetura Cliente-Servidor:** O GNS3 pode ser instalado tanto em uma máquina local quanto em um servidor remoto. No entanto, mesmo quando a instalação é feita no servidor, é necessário que o cliente também esteja instalado na máquina do usuário para que o sistema funcione corretamente.
 ---
 
 ## 3. **EVE-NG (Emulated Virtual Environment Next Generation)**
 - **Tipo:** Emulador completo.  
 - **Destaque:** Interface web, suporta múltiplos fabricantes (Cisco, Palo Alto, Fortinet, etc.).  
 - **Recursos:** Laboratórios colaborativos, integração com VMware e VirtualBox.  
-- **Perfil:** Treinamento corporativo e certificações.  
+- **Perfil:** Treinamento corporativo e certificações.
+- **Pago:** A maior parte dos recursos é liberada apenas na versão paga.
 
 ---
 
 ## 4. **PNETLab**
-- **Tipo:** Emulador baseado em EVE-NG.  
+- **Tipo:** Emulador baseado em EVE-NG (derivado).  
 - **Destaque:** Gratuito, interface simplificada e suporte a imagens reais.  
 - **Recursos:** Permite criar laboratórios complexos com roteadores, switches e firewalls.  
 - **Perfil:** Alternativa acessível para quem busca realismo sem custo.  
-
+- **Arquitetura Cliente-Servidor:** O PNETLab é disponibilizado como uma máquina virtual, podendo ser utilizado localmente ou em um servidor dedicado. Os recursos, cenários e laboratórios são acessados diretamente por meio de uma interface web, sem necessidade de instalação adicional no cliente.
 ---
 
 ## 5. **Boson NetSim**
