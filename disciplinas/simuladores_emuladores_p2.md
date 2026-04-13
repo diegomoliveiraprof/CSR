@@ -1,15 +1,19 @@
 
+
 # Principais opções de simuladores e emuladores
 
 ---
+<img width="261" height="193" alt="pkt logo" src="https://github.com/user-attachments/assets/fba37b1a-a98b-416b-ab67-003dc5c4d6fc" />
 
-## 1. **Packet Tracer**
+## 1. **Packet Tracer** 
+
 - **Tipo:** Simulador de rede.  
 - **Destaque:** Ferramenta oficial da Cisco para ensino básico.  
 - **Recursos:** Criação de topologias simples, configuração de IPs, roteamento estático, ACLs e servidores (DNS, Web, DHCP).  
 - **Perfil:** Iniciantes e estudantes em disciplinas introdutórias de redes.  
 
 ---
+<img width="193" height="193" alt="gns3-logo" src="https://github.com/user-attachments/assets/f2509b39-677a-4952-acbb-930c0fb9d492" />
 
 ## 2. **GNS3 (Graphical Network Simulator-3)**
 - **Tipo:** Emulador de rede (executa imagens reais de sistemas).  
@@ -19,6 +23,7 @@
 - **Usuários** Não faz separação do ambiente de trabalho dos usuários
 - **Arquitetura Cliente-Servidor:** O GNS3 pode ser instalado tanto em uma máquina local quanto em um servidor remoto. No entanto, mesmo quando a instalação é feita no servidor, é necessário que o cliente também esteja instalado na máquina do usuário para que o sistema funcione corretamente.
 ---
+<img width="491" height="193" alt="459-4591540_logo-eve-color-eve-ng-logo" src="https://github.com/user-attachments/assets/6f8fd8ba-81a8-4345-b83c-c23149ded73d" />
 
 ## 3. **EVE-NG (Emulated Virtual Environment Next Generation)**
 - **Tipo:** Emulador completo.  
@@ -28,6 +33,7 @@
 - **Pago:** A maior parte dos recursos é liberada apenas na versão paga.
 
 ---
+<img width="184" height="193" alt="pnetlab-logo" src="https://github.com/user-attachments/assets/7acb7ff8-7ea0-4279-b5ab-fabb73cc175f" />
 
 ## 4. **PNETLab**
 - **Tipo:** Emulador baseado em EVE-NG (derivado).  
@@ -36,6 +42,7 @@
 - **Perfil:** Alternativa acessível para quem busca realismo sem custo.  
 - **Arquitetura Cliente-Servidor:** O PNETLab é disponibilizado como uma máquina virtual, podendo ser utilizado localmente ou em um servidor dedicado. Os recursos, cenários e laboratórios são acessados diretamente por meio de uma interface web, sem necessidade de instalação adicional no cliente.
 ---
+<img width="372" height="193" alt="bson_logo" src="https://github.com/user-attachments/assets/7ddfab05-5d46-4e58-990b-29aade940155" />
 
 ## 5. **Boson NetSim**
 - **Tipo:** Simulador pago.  
@@ -44,6 +51,7 @@
 - **Perfil:** Estudantes que querem prática estruturada.  
 
 ---
+<img width="338" height="193" alt="ns-3_logo" src="https://github.com/user-attachments/assets/84e9f2f5-d22a-4d4c-a116-209d6f862e44" />
 
 ## 6. **NS-3 (Network Simulator 3)**
 - **Tipo:** Simulador acadêmico.  
