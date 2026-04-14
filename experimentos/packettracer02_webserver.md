@@ -41,7 +41,7 @@ Nesta atividade, o estudante deverá:
 7. Testar o **acesso ao servidor Web** via navegador.
 8. Observar e analisar os pacotes.
 
-[Link do cenário .pkt](https://drive.google.com/file/d/1nUkAqOWabfJMJlc3h880GECVO50tmy0p/view?usp=drive_link)
+[Link do cenário .pkt](https://drive.google.com/file/d/1YsJzQUK4Bt9tpX7KrcNEQz9mC5W79DHE/view?usp=sharing)
 
 ## Validação
 Mostrar ao professor o cenário configurado funcionando.
