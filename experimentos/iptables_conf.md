@@ -1,4 +1,4 @@
-# Experimento DHCP
+# Iptables configuração
 
 ## Objetivo
 
