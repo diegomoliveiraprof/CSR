@@ -57,7 +57,7 @@ Utilizando o cenário/laboratório do roteiro de configuração do iptables, cer
 
 - Capture pacotes enquanto acessa um site via HTTP (porta 80) e HTTPS (porta 443).
   - sites HTTP:
-    - www.httforever.com
+    - www.httpforever.com
     - [172.18.1.40](http://172.18.1.40) 
 
 - Compare os pacotes TCP em cada caso.
