@@ -256,32 +256,27 @@ ip6tables-restore < /etc/iptables/rules.v6
 
 ## Atividade
 
-1. **ICMP interno vs externo**
-
-   - Como ficaria a regra para permitir que máquinas internas façam ping na internet, mas impedir que máquinas externas façam ping na rede interna?
-   - Teste a regra e explique as regras e o resultado.
-
-2. **DNS restrito**
+1. **DNS restrito**
 
    - Se você bloquear o tráfego DNS, o que acontece com a navegação web?
    - Qual seria uma alternativa para continuar navegando sem liberar DNS?
 
-3. **HTTP/HTTPS**
+2. **HTTP/HTTPS**
 
    - Explique por que é necessário liberar tanto a porta 80 quanto a 443.
    - O que aconteceria se apenas a porta 80 fosse liberada?
 
-4. **Loopback**
+3. **Loopback**
 
    - Por que é importante liberar a interface de loopback?
    - O que poderia dar errado se ela fosse bloqueada?
 
-5. **Persistência das regras**
+4. **Persistência das regras**
 
    - Qual a diferença entre `iptables-save` e `iptables-persistent`?
    - O que aconteceria com as regras se o servidor fosse reiniciado sem o iptables-persistent instalado?
 
-6. **IPv6**
+5. **IPv6**
 
    - Como adaptar as regras criadas para funcionar em uma rede IPv6?
    - Qual comando substituiria o `iptables`?
