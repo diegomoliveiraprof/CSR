@@ -82,6 +82,8 @@ Utilizando o cenário/laboratório do roteiro de configuração do iptables, cer
    - Como o Wireshark mostra a diferença entre conexões HTTP e HTTPS?
    - Quais portas são utilizadas e como isso se relaciona com as regras liberadas no iptables?
 
+---
+
 ## Entrega
 
 - Organize suas respostas em um **arquivo PDF**.
