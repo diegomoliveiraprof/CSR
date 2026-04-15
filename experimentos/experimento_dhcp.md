@@ -1,6 +1,12 @@
-Experimento MAC e ARP
-OBJETIVO
-​Utilizar um sniffer de rede como o Wireshark, para evidenciar o funcionamento das LAN's com end. MAC e protocolo ARP. Executar o experimento e responder às questões em um relatório, utilizar print das telas sempre que possível para justificar suas respostas.
+# Experimento MAC e ARP
+## OBJETIVO
+​Compreender o processo de atribuição dinâmica de endereços IP através da análise real de pacotes, identificando as etapas do acrônimo DORA.
 
-Experimento
+## Experimento
 1. Inicie a captura no Wireshark
+2. No terminal (Linux/Mac) ou CMD/PowerShell (Windows), execute os comandos para liberar o IP atual e solicitar um novo:
+
+Linux: sudo dhclient -r (libera)
+sudo dhclient -v (renova).
+
+Windows: ipconfig /release e ipconfig /renew.
