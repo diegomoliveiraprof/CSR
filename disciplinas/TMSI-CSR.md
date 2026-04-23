@@ -34,7 +34,7 @@ Comandos a serem utilizados.
 |-------------|----------------------------------------------------------------------|---------|
 | 01          | Gateway                                                              | [Acessar](https://github.com/diegomoliveiraprof/CSR/blob/main/experimentos/gateway_conf.md) |
 | 02          | Systemd                                                              | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/systemd_conf.md) |
-| 03          | DHCP                                                                 | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/dhcp.conf.md) |
+| 03          | DHCP                                                                 | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/dhcp_conf.md) |
 | 04          | IPTABLES                                                             | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/iptables_conf.md) |
 | 05          | FTP                                                                  | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/ftp_conf.md) |
 | Comandos    | Comandos úteis                                                       | Acessar |
