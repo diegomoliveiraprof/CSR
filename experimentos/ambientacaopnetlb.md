@@ -9,7 +9,7 @@ Configuração de endereçamento IP em pcs virtuais VPCs.
 
 ## 10.1.1.0/24
 
-10.1.1.0 -> endereço da rede - NÃO posso usar me máquinas
+10.1.1.0 -> endereço da rede - NÃO posso usar nas máquinas
 
 10.1.1.1
 
@@ -17,7 +17,7 @@ Configuração de endereçamento IP em pcs virtuais VPCs.
 
 10.1.1.254
 
-10.1.1.255 -> Broadcast -  - NÃO posso usar me máquinas
+10.1.1.255 -> Broadcast -  - NÃO posso usar nas máquinas
 
 | **Ação**                                 | **Comando**                          |
 | ---------------------------------------- | ------------------------------------ |
