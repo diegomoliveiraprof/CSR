@@ -97,4 +97,3 @@
 
 ---
 
-🛠️ Processos e monitoramento
