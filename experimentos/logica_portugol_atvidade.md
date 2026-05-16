@@ -349,3 +349,24 @@ programa {
 
 **A Solução:** Usamos o `se` para descobrir quem é o mais velho e sempre subtrair o **menor do maior**. Isso garante que o resultado seja um número natural.
 
+9. Desafio: Programa que solicite a quantidade de notas, receba as notas e apesente a média das notas.
+
+```portugol
+programa {
+  funcao inicio() {
+    inteiro qt_notas, i
+    real nota=0, soma_notas=0
+
+    escreva("Quantidade de avaliações: ")
+    leia(qt_notas)
+
+      para (i=0; i<qt_notas; i++){
+        escreva("Nota-",i+1,":")
+        leia(nota)
+        soma_notas = soma_notas+nota
+      }
+    escreva("Média: ", soma_notas/qt_notas)
+  }
+}
+```
+
