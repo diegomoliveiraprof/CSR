@@ -349,7 +349,7 @@ programa {
 
 **A Solução:** Usamos o `se` para descobrir quem é o mais velho e sempre subtrair o **menor do maior**. Isso garante que o resultado seja um número natural.
 
-9. Desafio: Programa que solicite a quantidade de notas, receba as notas e apesente a média das notas.
+9. Desafio: Programa que solicite a quantidade de notas, receba as notas e apresente a média das notas.
 
 ```portugol
 programa {
