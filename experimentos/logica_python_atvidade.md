@@ -161,40 +161,22 @@ else:
 ---
 
 
-10. Conversor de Sistema Métrico para Americano: 
-    Escreva um programa que receba do usuário uma medida em centímetros (cm). Em seguida, o programa deve exibir um menu para que o usuário escolha para qual unidade do sistema americano deseja converter, utilizando as seguintes fórmulas:
+10. Escreva um programa que receba do usuário uma distância em quilômetros (km). O programa deve calcular e exibir essa mesma distância convertida para duas unidades do sistema americano: jardas (yd) e milhas (mi).Utilize as seguintes fórmulas para o cálculo:
+* Jardas (yd): $Jardas = Quilômetros \times 1093.61$
+* Milhas (mi): $Milhas = \frac{Quilômetros}{1.60934}$
 
-* Polegadas (in): $Polegadas = \frac{Centímetros}{2.54}$
-* Jardas (yd): $Jardas = \frac{Centímetros}{91.44}$
-* Milhas (mi): $Milhas = \frac{Centímetros}{160934.4}$
-
-O programa deve calcular e exibir o valor convertido com duas casas decimais. Caso o usuário selecione uma opção inválida, exiba uma mensagem de erro.
+Exiba os dois resultados na tela com duas casas decimais.
 
 ```Python
-# Solicitando a entrada do valor em centímetros
-cm = float(input("Digite o valor em centímetros (cm): "))
+# Solicitando a entrada do valor em quilômetros
+km = float(input("Digite a distância em quilômetros (km): "))
 
-# Exibindo as opções de conversão
-print("\nEscolha a unidade para conversão:")
-print("1 - Polegadas (in)")
-print("2 - Jardas (yd)")
-print("3 - Milhas (mi)")
-opcao = input("Digite o número da opção desejada: ")
+# Realizando os cálculos de conversão
+jardas = km * 1093.61
+milhas = km / 1.60934
 
-# Processando a escolha do usuário
-if opcao == "1":
-    resultado = cm / 2.54
-    print(f"\nResultado: {cm:.2f} cm equivalem a {resultado:.2f} polegadas (in).")
-
-elif opcao == "2":
-    resultado = cm / 91.44
-    print(f"\nResultado: {cm:.2f} cm equivalem a {resultado:.2f} jardas (yd).")
-
-elif opcao == "3":
-    resultado = cm / 160934.4
-    # Usamos 5 casas decimais para milhas porque o valor costuma ser muito pequeno
-    print(f"\nResultado: {cm:.2f} cm equivalem a {resultado:.5f} milhas (mi).")
-
-else:
-    print("\nErro: Opção inválida! Por favor, escolha 1, 2 ou 3.")
+# Exibindo os resultados formatados
+print(f"\n--- Resultado da Conversão para {km:.2f} km ---")
+print(f"Distância em Jardas: {jardas:.2f} yd")
+print(f"Distância em Milhas: {milhas:.2f} mi")
 ```
